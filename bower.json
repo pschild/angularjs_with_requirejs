@@ -1,0 +1,13 @@
+{
+  "name": "Example for using AngularJS (with Angular-Route) together with RequireJS",
+  "authors": [
+    "Philippe Schild"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.pschild.de",
+  "dependencies": {
+    "angular": "angularjs#~1.4.7",
+    "angular-route": "~1.4.7",
+    "requirejs": "~2.1.20"
+  }
+}
