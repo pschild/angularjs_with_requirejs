@@ -1,6 +1,7 @@
 define([
 	'angular',
-	'ngRoute'
+	'ngRoute',
+	'ngAnimate'
 ], function(angular) {
-	return angular.module('app', ['ngRoute']);
+	return angular.module('app', ['ngRoute', 'ngAnimate']);
 });

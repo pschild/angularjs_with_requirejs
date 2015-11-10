@@ -3,7 +3,8 @@ require.config({
 
 	paths: {
 		angular: '../bower_components/angular/angular.min',
-		ngRoute: '../bower_components/angular-route/angular-route.min'
+		ngRoute: '../bower_components/angular-route/angular-route.min',
+		ngAnimate: '../bower_components/angular-animate/angular-animate.min'
 	},
 
 	shim: {
@@ -11,6 +12,9 @@ require.config({
 			exports: 'angular'
 		},
 		ngRoute: {
+			deps: ['angular']
+		},
+		ngAnimate: {
 			deps: ['angular']
 		}
 	}
